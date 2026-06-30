@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7be9d85ef12c4e8409e05f8aaf629cad, type: 3}
+  m_Name: GeneratedArtDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::ArenaPrototype.GeneratedArtDatabase
+  skillIcons:
+  - id: pulse_bolt
+    sprite: {fileID: 21300000, guid: df8452e614e86da4185830df24f8bdf4, type: 3}
+  - id: vector_dash
+    sprite: {fileID: 21300000, guid: 1f0e504a2fa44574bae4fba4cfdedfcc, type: 3}
+  - id: circuit_nova
+    sprite: {fileID: 21300000, guid: 09cb12517d4977544813144813e62f22, type: 3}
+  - id: resonance_ward
+    sprite: {fileID: 21300000, guid: 8f65d3201f1761b4d97f2aff46ca95a2, type: 3}
+  - id: shadow_cleave
+    sprite: {fileID: 21300000, guid: 15b2efbb3f2b7914296733bd838eb585, type: 3}
+  - id: blood_lance
+    sprite: {fileID: 21300000, guid: 774982da1733d824cbda405e53d5b2d6, type: 3}
+  - id: frost_chain
+    sprite: {fileID: 21300000, guid: 9cadfd25ee93e6e4cbe7be4ea8539bde, type: 3}
+  - id: soul_barrier
+    sprite: {fileID: 21300000, guid: 11870a50f7bccb44d92590b60c8bcf17, type: 3}
+  itemIcons:
+  - id: ember_blade
+    sprite: {fileID: 21300000, guid: a51c1886f04b558409c6e3cc594ceade, type: 3}
+  - id: guard_plate
+    sprite: {fileID: 21300000, guid: 715924e6ffc06d4478c018696fa619cc, type: 3}
+  - id: tempo_charm
+    sprite: {fileID: 21300000, guid: db5e361ab53a61b429f9c1218b3c7ec9, type: 3}
+  - id: spark_core
+    sprite: {fileID: 21300000, guid: 565d594afd5abe64eaaf6456f33e90a5, type: 3}
+  - id: hunter_boots
+    sprite: {fileID: 21300000, guid: 767a4e2169f597c49a93f40772c91ceb, type: 3}
+  characterSprites:
+  - id: player_hero
+    sprite: {fileID: 21300000, guid: a3001c8149b95494b90bb1b0816e07b5, type: 3}
+  - id: ally_resonator
+    sprite: {fileID: 21300000, guid: 4cdbb03b3e2339c4980d56cd8f84264f, type: 3}
+  - id: enemy_striker
+    sprite: {fileID: 21300000, guid: 8f46b9f8464ebe0498fa48fd4542dc8d, type: 3}
+  - id: enemy_skirmisher
+    sprite: {fileID: 21300000, guid: cd0939d0b4ffbda4f8f54dc4a1db9870, type: 3}
+  - id: enemy_bulwark
+    sprite: {fileID: 21300000, guid: 9f3ffedf3e6580347a24c644f2b4de5e, type: 3}
+  skillEffects:
+  - id: pulse_bolt_projectile
+    sprite: {fileID: 21300000, guid: bdfc2e5237ec1574fa1cb24f9cce232a, type: 3}
+  - id: enemy_bolt_projectile
+    sprite: {fileID: 21300000, guid: 4996e72f4072262428670acdd09ac2fa, type: 3}
+  - id: vector_dash_slash
+    sprite: {fileID: 21300000, guid: 120c486c24f4c82488dc8b3215bb63b8, type: 3}
+  - id: circuit_nova_burst
+    sprite: {fileID: 21300000, guid: 2829230cfe4ff1446abdef34191649d7, type: 3}
+  - id: resonance_ward_aura
+    sprite: {fileID: 21300000, guid: 98a4e0f014bb2074d90b160ed0e36c47, type: 3}
+  vfx:
+  - id: slash_arc
+    sprite: {fileID: 21300000, guid: 06f05744e5ab9b84ba597a59354a901b, type: 3}
+    prefab: {fileID: 4049570663424996453, guid: b9df0b9ee53780b4da3346aea2302988, type: 3}
+  - id: hit_spark
+    sprite: {fileID: 21300000, guid: 7a38c7bf1c5f2894988ce60180fbb29d, type: 3}
+    prefab: {fileID: 6691364689177428056, guid: 647dcfd9b0db61f47b8cddbce275dc69, type: 3}
+  - id: shockwave_ring
+    sprite: {fileID: 21300000, guid: 331e30b33de2e214c932d47bfcded00b, type: 3}
+    prefab: {fileID: 5510828095457172209, guid: 8d7370f77a1bb5a4389f032df0e051bc, type: 3}
+  - id: cast_circle
+    sprite: {fileID: 21300000, guid: 95de086682b88a4459f5ab0a4d09272e, type: 3}
+    prefab: {fileID: 7750284148456161941, guid: 5eb697edd8b37e741b5008cf5892d8b3, type: 3}
+  - id: telegraph_marker
+    sprite: {fileID: 21300000, guid: 6944103edb19e4140892e232a60ba7cb, type: 3}
+    prefab: {fileID: 5576589566444301944, guid: 4842d841afa9faf4e96a3b4a6e731071, type: 3}

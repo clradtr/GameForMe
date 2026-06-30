@@ -1,0 +1,44 @@
+# Default: let Git normalize text files
+* text=auto
+
+# Source code / config: keep LF in repository and working tree
+*.cs text eol=lf
+*.gd text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.shader text eol=lf
+*.hlsl text eol=lf
+*.glsl text eol=lf
+
+# Windows scripts may use CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.mp3 binary
+*.ogg binary
+*.wav binary
+*.flac binary
+*.mp4 binary
+*.mov binary
+*.avi binary
+*.fbx binary
+*.blend binary
+*.psd binary
+*.ttf binary
+*.otf binary
+*.zip binary
+*.7z binary
+*.rar binary
